@@ -29,6 +29,7 @@ The project is organized in a modular structure, with separate folders for:
 -   `context`: contains React context for state management
 -   `pages`: contains routes for the application
 -   `styles`: contains CSS styles for the application
+    `ecommerce-backend`: conatains backend code for Login And Register
 
 ## Dependencies
 
@@ -49,7 +50,3 @@ To run the project locally:
 2. Install dependencies using `npm install`
 3. Start the development server using `npm run dev` or `yarn dev`
 4. Open the application in your browser at `http://localhost:5173/`
-
-## Video Demo
-
-https://github.com/user-attachments/assets/8c5d7dd3-3130-482c-a7d7-0d9b690827aa
