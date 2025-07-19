@@ -13,10 +13,6 @@ import CartContextProvider from './context/Cart/Cart';
 import WishlistContextProvider from './context/Wishlist/Wishlist';
 import { Toaster } from 'react-hot-toast';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import ForgotPassword from './pages/ForgotPassword/ForgotPassword';
-import ResetPassword from './pages/ResetPassword/ResetPassword';
-import VerifyCode from './pages/VerifyCode/VerifyCode';
 import Checkout from './pages/Checkout/Checkout';
 import Wishlist from './pages/Wishlist/Wishlist';
 import Brands from './pages/Brands/Brands';
@@ -57,15 +53,7 @@ function App() {
             </RedirectIfAuthenticated>
           ),
         },
-        {
-          path: 'forgotPassword',
-          element: <ForgotPassword />,
-        },
-        { path: 'forgotPassword/verifyCode', element: <VerifyCode /> },
-        {
-          path: 'forgotPassword/verifyCode/resetPassword',
-          element: <ResetPassword />,
-        },
+        
         {
           path: 'product/:id',
           element: (
