@@ -17,7 +17,7 @@ This is an E-Commerce website built using React & Vite. The project features use
 
 -   Front-end built using React, Vite, and Tailwind CSS
 -   State management using React Context and Reducers
--   Form handling and validation using Formik and Yup
+-   Backend created using Express.js
 
 ## Folder Structure
 
@@ -37,7 +37,6 @@ The project is organized in a modular structure, with separate folders for:
 -   `@fortawesome/fontawesome-free` for icons
 -   `react-router-dom` for client-side routing
 -   `react-slick` for carousel functionality
--   `yup` for form validation
 -   `axios` for making HTTP requests
 -   `flowbite` for UI components
 -   `formik` for form handling
@@ -50,3 +49,4 @@ To run the project locally:
 2. Install dependencies using `npm install`
 3. Start the development server using `npm run dev` or `yarn dev`
 4. Open the application in your browser at `http://localhost:5173/`
+5. Start the Backend Server using `nodemon`
